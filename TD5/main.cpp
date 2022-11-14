@@ -14,7 +14,12 @@ int main() {
     //    std:: cout << jeu.getCarte(0) << std::endl;
     //    std:: cout << jeu.getCarte(83) << std::endl;
     Plateau p;
+    
     for(auto it : p){
+	
+    }
+    for(auto it=p.begin();it!=p.end();++it)
+    {
 	
     }
     Pioche p1, p2;
